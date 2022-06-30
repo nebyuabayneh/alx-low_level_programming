@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * Description: 'the program's displace a string without using fuction called print'
+ * main - void
  */
 int main(void)
 {
