@@ -1,10 +1,6 @@
 #include <stdio.h>
-/**
- * main - void
- * 
- * Description: 'the program's displace a string without the fuction called print'
- * 
- * Return: Always 0 (Success)
+/*
+ * Description: 'the program's displace a string without using fuction called print'
  */
 int main(void)
 {
