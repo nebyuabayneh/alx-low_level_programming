@@ -1,13 +1,11 @@
 #include <stdio.h>
 /**
- * main - void
- * 
- * Description: 'the program's displace a string without using fuction called print'
+ * main - Enrty point
  * 
  * Return: Always 0 (Success)
  */
-int main(void)
+int main(void) 
 {
-puts("\"Programming is like building a multilingual puzzle");
-return (0);
+    puts("\"Programming is like building a multilingual puzzle");
+    return (0);
 }
