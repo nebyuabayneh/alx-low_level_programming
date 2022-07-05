@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * print_sign - Check the code
- * Description: check wheather a number is a positive,
- * negative or zero
+ * print_sign - Check Holberton
+ * @n: An input number
+ * Description: Tohis function prints the sign of the number
  * Return: 1 if number is positive, o if number is 0, or
  * -1 if number is negative
  */
