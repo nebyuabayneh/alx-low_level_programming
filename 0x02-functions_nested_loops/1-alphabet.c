@@ -8,11 +8,11 @@
  */
 int main(void)
 {
-	//char word[] = "_putchar";
+
 	int i;
 
 	for (i = 'a'; i <= 'z'; i++)
-		_putchar(word[i]);
+		_putchar(i);
 	_putchar('\n');
 
 	return (0);
