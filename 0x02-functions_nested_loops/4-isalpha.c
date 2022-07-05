@@ -3,9 +3,10 @@
 
 /**
  * int _islower - Check description
+ * @c: An input character
  * Description: Function that checks for alphabetic character and
  * returns 1 if c is a letter otherwise return 0
- * Return: Nothing.
+ * Return:  1 or 0 in otherwise.
  */
 int _isalpha(int c)
 {
@@ -22,5 +23,3 @@ int _isalpha(int c)
 	}
 	return (letter);
 }
-
-
