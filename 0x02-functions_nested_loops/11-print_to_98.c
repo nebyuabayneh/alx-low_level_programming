@@ -3,6 +3,7 @@
 
 /**
  * print_to_98 - Check description
+ * @n: A input integer
  * Description: It prints whole number starting from n to 98
  * and 98 to n in order
  * Return: Nothing.
