@@ -6,10 +6,10 @@
  * Description: It prints the word Holberton, followed by a new line.
  * Return: 0.
  */
-int main(void)
+void print_alphabet(void)
 {
 
-	int i;
+	char i;
 
 	for (i = 'a'; i <= 'z'; i++)
 		_putchar(i);
