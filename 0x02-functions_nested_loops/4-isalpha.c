@@ -2,8 +2,9 @@
 #include "main.h"
 
 /**
- * int _islower - Check the code
- * Description: write a function that returns lowercase or uppercase
+ * int _islower - Check description
+ * Description: Function that checks for alphabetic character and
+ * returns 1 if c is a letter otherwise return 0
  * Return: Nothing.
  */
 int _isalpha(int c)
