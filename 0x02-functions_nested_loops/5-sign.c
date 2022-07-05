@@ -12,17 +12,20 @@ int print_sign(int n)
 {
     char tester;
 
-    if (tester > 0){
+    if (n > 0){
+        tester = 1;
         _putchar('+');
     }
-    else if (tester < 0)
+    else if (n < 0)
     {
         /* code */
+        tester = -1;
         _putchar('-');
     }
     else
     {
         /* code */
+        tester = 0;
         _putchar('0');
     }
     return(tester);
