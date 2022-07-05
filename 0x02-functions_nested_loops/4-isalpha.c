@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * int _islower - Check description
+ * _islower - Check description
  * @c: An input character
  * Description: Function that checks for alphabetic character and
  * returns 1 if c is a letter otherwise return 0
