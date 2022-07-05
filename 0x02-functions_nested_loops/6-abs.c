@@ -2,9 +2,10 @@
 #include "main.h"
 
 /**
- * int _abs - Check the code
- * Description: return 1 if c is lowercase otherwise return 0
- * Return: The absolute value of a number.
+ *_abs - Check Holberton
+ * @r: An integre input
+ * Description: This function returns absolute value of a number
+ * Return: Absolut value of number r
  */
 int _abs(int r)
 {
