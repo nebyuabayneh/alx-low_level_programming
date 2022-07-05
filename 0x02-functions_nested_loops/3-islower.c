@@ -2,9 +2,11 @@
 #include "main.h"
 
 /**
- * int _islower - Check the code
- * Description: return 1 if c is lowercase otherwise return 0
- * Return: Nothing.
+ * _islower - Check desctiption
+ * @c: An input character
+ * Description: function uses _putchar function to print
+ * alphabet in lowercase 10 times
+ * Return: 1 if is lowercase or 0 if is uppercase
  */
 int _islower(int c)
 {
