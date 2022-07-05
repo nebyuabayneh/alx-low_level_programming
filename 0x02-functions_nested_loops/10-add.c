@@ -2,9 +2,11 @@
 #include "main.h"
 
 /**
- * int add - Check the code
- * Description: Return the sum of two numbers
- * Return: Always 0.
+ * add - Check Holberton
+ * @a: An integer a
+ * @b: An integer b
+ * Description: Function that adds two integers and returns the result
+ * Return: Result to add a and b
  */
 int add(int a, int b)
 {
