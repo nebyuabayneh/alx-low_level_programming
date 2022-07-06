@@ -9,7 +9,7 @@
  *
  * return (0);
  */
-int positive_or_negative(void)
+int main(void)
 {
 	int n;
 
