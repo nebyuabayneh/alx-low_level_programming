@@ -5,7 +5,7 @@
 
 /* betty style doc for function main goes there */
 /**
- * main -> assign a randome value to n and compare
+ * int main -> assign a randome value to n and compare
  * the value wheather it is a positive or negative
  *
  * return (0);
