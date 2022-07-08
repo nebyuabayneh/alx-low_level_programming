@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -11,17 +10,12 @@
 
 int main(void)
 {
-	char low;
+	int ch;
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-		//putchar('\n');
-    for (low = 'A'; low <= 'Z'; low++)
-    {
-        /* code */
-        putchar(low);
-        //putchar('n')
-    }
-    
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
+	for (ch = 'A'; ch <= 'Z'; ch++)
+		putchar(ch);
+	putchar('\n');
 	return (0);
 }
