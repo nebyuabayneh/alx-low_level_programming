@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * put2 - function that prints every other string.
+ * puts2 - function that prints every other string.
  * @str: declaration of *str and paramters for the function
  * Return: Always 0.
  */
