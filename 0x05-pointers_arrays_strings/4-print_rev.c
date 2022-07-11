@@ -1,19 +1,20 @@
-#include <stdio.h>
-#include <string.h>
+#include "main.h"
 
-// function definition of the revstr()
+/**
+ * print_rev - a function that prints a string, in reverse,
+ * followed by a new line.
+ * @s: an input string
+ * Return: Nothing
+ */
 void print_rev(char *s)
 {
-    // declare variable
-    int i, len, temp;
-    len = strlen(s); // use strlen() to get the length of str string
+	int len = 0;
 
-    // use for loop to iterate the string
-    for (i = 0; i < len/2; i++)
-    {
-        // temp variable use to temporary hold the string
-        temp = s[i];
-        s[i] = s[len - i - 1];
-        s[len - i - 1] = temp;
-    }
+	while (s[len] != '\0')
+		len++;
+
+	while (len)
+		_putchar(s[--len]);
+
+	_putchar('\n');
 }
