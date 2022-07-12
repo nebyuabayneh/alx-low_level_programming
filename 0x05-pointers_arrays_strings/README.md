@@ -1,4 +1,4 @@
-C - pointers, arrays and strings. \n
+<h1>C - pointers, arrays and strings.<h1><br />
 0 - Write a function that takes a pointer to an int as parameter and updates the value it points to to 98.<br />
 1 - Write a function that swaps the values of two integers.<br />
 2 - Write a function that returns the length of a string.<br />
