@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strncpy - check the code for Holberton School students.
  * @src: parameter to a src to copy
@@ -6,7 +7,6 @@
  * @n: parameter for number of bytes
  * Return: Always 0.
  */
-
 char *_strncpy(char *dest, char *src, int n)
 {
 	int a = 0;
