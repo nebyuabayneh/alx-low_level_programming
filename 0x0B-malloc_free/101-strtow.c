@@ -6,13 +6,12 @@
  * Return: int
  */
 
-
 int _strlen(char *s)
 {
-int size = 0;
-for (; s[size] != '\0'; size++)
-;
-return (size);
+	int size = 0;
+	for (; s[size] != '\0'; size++)
+		;
+	return (size);
 }
 
 /**
@@ -22,26 +21,25 @@ return (size);
  * Return: pointer
  */
 
-char *str_addChar (char *str, char c)
+char *str_addChar(char *str, char c)
 {
-int size, i;
-char *m;
+	int size, i;
+	char *m;
 
-size = _strlen(str);
+	size = _strlen(str);
 
-m = malloc((size + 1) * sizeof(char) + 1);
-if (m == 0)
-	return (0);
+	m = malloc((size + 1) * sizeof(char) + 1);
+	if (m == 0)
+		return (0);
 
-for (i = 0; i <= size; i++)
-	m[i] = str[i];
+	for (i = 0; i <= size; i++)
+		m[i] = str[i];
 
-m[i + 1] = c;
-m[i + 2] = '\0';
+	m[i + 1] = c;
+	m[i + 2] = '\0';
 
-return (m);
+	return (m);
 }
-
 
 /**
  * *nbr_spaces - return the number of occurent of a string
@@ -55,58 +53,55 @@ unsigned int nbr_spaces(char *s)
 
 	for (i = 0; s[i + 1] != '\0'; i++)
 	{
-		if (s[i]  == ' ' && s[i + 1] != ' ')
+		if (s[i] == ' ' && s[i + 1] != ' ')
 			cmpt++;
 	}
 
 	return (cmpt + 1);
 }
 
-
 /**
-  *strtow - split a sentence into multiple words.
-  *@str: the string passed as argument.
-  *Return: tokens
-  */
+ *strtow - split a sentence into multiple words.
+ *@str: the string passed as argument.
+ *Return: tokens
+ */
 char **strtow(char *str)
 {
-int i;
-int spaces = nbr_spaces(str);
-char **tokens = NULL;//malloc(sizeof(char *) * (spaces));
-char *token;
-int checkingSpace = 0;
-int word = 0;
+	int i;
+	int spaces = nbr_spaces(str);
+	char **tokens = NULL; // malloc(sizeof(char *) * (spaces));
+	char *token;
+	int checkingSpace = 0;
+	int word = 0;
 
-if (!tokens)
-{
-	printf("Failed");
-	return (0);
-}
-
-
-printf("looping");
-for (i = 0; str[i] != '\0'; i++)
-{
-	if (str[i] == ' ')
+	if (!tokens)
 	{
-		if (checkingSpace == 0)
+		printf("Failed");
+		return (0);
+	}
+
+	printf("looping");
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		if (str[i] == ' ')
 		{
-			word++;
-			checkingSpace = 1;
+			if (checkingSpace == 0)
+			{
+				word++;
+				checkingSpace = 1;
+			}
+		}
+		else
+		{
+			printf("1");
+			token = tokens[word];
+			free(tokens[word]);
+			str_addChar(token, str[i]);
+			checkingSpace = 0;
 		}
 	}
-	else
-	{
-		printf("1");
-		token = tokens[word];
-		free(tokens[word]);
-		str_addChar(token, str[i]);
-		checkingSpace = 0;
-	}
 
-}
+	tokens[i] = NULL;
 
-tokens[i] = NULL;
-
-return (tokens);
+	return (tokens);
 }
