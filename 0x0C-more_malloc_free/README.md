@@ -1,4 +1,4 @@
-# 0x0C. C - More malloc, fre
+# 0x0C. C - More malloc, free
 
 0. Write a function that allocates memory using malloc.<br/>
 1. Write a function that concatenates two strings.<br/>
