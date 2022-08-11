@@ -1,4 +1,4 @@
-# ALX - Program
+# ALX - Project on Singly linked lists
 
  ------------
 
