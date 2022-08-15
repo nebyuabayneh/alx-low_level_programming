@@ -11,7 +11,7 @@
 8. Function that returns the sum of all the data (n) of a listint_t linked list.<br/>
 9. Function that inserts a new node at a given position.<br/>
 10. Function that deletes the node at index index of a listint_t linked list.<br/>
-11. Function that reverses a listint_t linked list.<br/>
-12. Function that prints a listint_t linked list.<br/>
-13. Function that frees a listint_t list.<br/>
-14. Function that finds the loop in a linked list.
+100. Function that reverses a listint_t linked list.<br/>
+101. Function that prints a listint_t linked list.<br/>
+102. Function that frees a listint_t list.<br/>
+103. Function that finds the loop in a linked list.
